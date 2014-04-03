@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		300D8DF818ED4F7F0024972B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300D8DF718ED4F7F0024972B /* Cocoa.framework */; };
+		300D8E2C18ED4F990024972B /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300D8E2B18ED4F990024972B /* IOBluetooth.framework */; };
+		300D8E8218ED55CA0024972B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 300D8E7318ED55CA0024972B /* AppDelegate.m */; };
+		300D8E8318ED55CA0024972B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 300D8E7518ED55CA0024972B /* MainMenu.xib */; };
+		300D8E8718ED55CA0024972B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 300D8E7E18ED55CA0024972B /* Images.xcassets */; };
+		300D8E8818ED55CA0024972B /* MacBeaconAdvertisementData.m in Sources */ = {isa = PBXBuildFile; fileRef = 300D8E8018ED55CA0024972B /* MacBeaconAdvertisementData.m */; };
+		300D8E8918ED55CA0024972B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 300D8E8118ED55CA0024972B /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		300D8DF418ED4F7F0024972B /* iBeaconForMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBeaconForMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		300D8DF718ED4F7F0024972B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		300D8DFA18ED4F7F0024972B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		300D8DFB18ED4F7F0024972B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		300D8DFC18ED4F7F0024972B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		300D8E1618ED4F7F0024972B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		300D8E2B18ED4F990024972B /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+		300D8E7218ED55CA0024972B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = iBeaconForMac/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		300D8E7318ED55CA0024972B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = iBeaconForMac/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		300D8E7618ED55CA0024972B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = MainMenu.xib; sourceTree = "<group>"; };
+		300D8E7C18ED55CA0024972B /* iBeaconForMac-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "iBeaconForMac-Info.plist"; path = "iBeaconForMac/iBeaconForMac-Info.plist"; sourceTree = SOURCE_ROOT; };
+		300D8E7D18ED55CA0024972B /* iBeaconForMac-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "iBeaconForMac-Prefix.pch"; path = "iBeaconForMac/iBeaconForMac-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		300D8E7E18ED55CA0024972B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = iBeaconForMac/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		300D8E7F18ED55CA0024972B /* MacBeaconAdvertisementData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacBeaconAdvertisementData.h; path = iBeaconForMac/MacBeaconAdvertisementData.h; sourceTree = SOURCE_ROOT; };
+		300D8E8018ED55CA0024972B /* MacBeaconAdvertisementData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacBeaconAdvertisementData.m; path = iBeaconForMac/MacBeaconAdvertisementData.m; sourceTree = SOURCE_ROOT; };
+		300D8E8118ED55CA0024972B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = iBeaconForMac/main.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		300D8DF118ED4F7F0024972B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300D8E2C18ED4F990024972B /* IOBluetooth.framework in Frameworks */,
+				300D8DF818ED4F7F0024972B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		300D8DEB18ED4F7F0024972B = {
+			isa = PBXGroup;
+			children = (
+				300D8DFD18ED4F7F0024972B /* iBeaconForMac */,
+				300D8DF618ED4F7F0024972B /* Frameworks */,
+				300D8DF518ED4F7F0024972B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		300D8DF518ED4F7F0024972B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				300D8DF418ED4F7F0024972B /* iBeaconForMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		300D8DF618ED4F7F0024972B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				300D8E2B18ED4F990024972B /* IOBluetooth.framework */,
+				300D8DF718ED4F7F0024972B /* Cocoa.framework */,
+				300D8E1618ED4F7F0024972B /* XCTest.framework */,
+				300D8DF918ED4F7F0024972B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		300D8DF918ED4F7F0024972B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				300D8DFA18ED4F7F0024972B /* AppKit.framework */,
+				300D8DFB18ED4F7F0024972B /* CoreData.framework */,
+				300D8DFC18ED4F7F0024972B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		300D8DFD18ED4F7F0024972B /* iBeaconForMac */ = {
+			isa = PBXGroup;
+			children = (
+				300D8E7218ED55CA0024972B /* AppDelegate.h */,
+				300D8E7318ED55CA0024972B /* AppDelegate.m */,
+				300D8E7418ED55CA0024972B /* Base.lproj */,
+				300D8E7718ED55CA0024972B /* en.lproj */,
+				300D8E7E18ED55CA0024972B /* Images.xcassets */,
+				300D8E7F18ED55CA0024972B /* MacBeaconAdvertisementData.h */,
+				300D8E8018ED55CA0024972B /* MacBeaconAdvertisementData.m */,
+				300D8DFE18ED4F7F0024972B /* Supporting Files */,
+			);
+			name = iBeaconForMac;
+			path = MacForBeacon;
+			sourceTree = "<group>";
+		};
+		300D8DFE18ED4F7F0024972B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				300D8E7C18ED55CA0024972B /* iBeaconForMac-Info.plist */,
+				300D8E7D18ED55CA0024972B /* iBeaconForMac-Prefix.pch */,
+				300D8E8118ED55CA0024972B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		300D8E7418ED55CA0024972B /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				300D8E7518ED55CA0024972B /* MainMenu.xib */,
+			);
+			name = Base.lproj;
+			path = iBeaconForMac/Base.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		300D8E7718ED55CA0024972B /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = en.lproj;
+			path = iBeaconForMac/en.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		300D8DF318ED4F7F0024972B /* iBeaconForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 300D8E2518ED4F7F0024972B /* Build configuration list for PBXNativeTarget "iBeaconForMac" */;
+			buildPhases = (
+				300D8DF018ED4F7F0024972B /* Sources */,
+				300D8DF118ED4F7F0024972B /* Frameworks */,
+				300D8DF218ED4F7F0024972B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iBeaconForMac;
+			productName = MacForBeacon;
+			productReference = 300D8DF418ED4F7F0024972B /* iBeaconForMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		300D8DEC18ED4F7F0024972B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = danny;
+			};
+			buildConfigurationList = 300D8DEF18ED4F7F0024972B /* Build configuration list for PBXProject "iBeaconForMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 300D8DEB18ED4F7F0024972B;
+			productRefGroup = 300D8DF518ED4F7F0024972B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				300D8DF318ED4F7F0024972B /* iBeaconForMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		300D8DF218ED4F7F0024972B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300D8E8718ED55CA0024972B /* Images.xcassets in Resources */,
+				300D8E8318ED55CA0024972B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		300D8DF018ED4F7F0024972B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300D8E8818ED55CA0024972B /* MacBeaconAdvertisementData.m in Sources */,
+				300D8E8218ED55CA0024972B /* AppDelegate.m in Sources */,
+				300D8E8918ED55CA0024972B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		300D8E7518ED55CA0024972B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				300D8E7618ED55CA0024972B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		300D8E2318ED4F7F0024972B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		300D8E2418ED4F7F0024972B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		300D8E2618ED4F7F0024972B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBeaconForMac/iBeaconForMac-Prefix.pch";
+				INFOPLIST_FILE = "iBeaconForMac/iBeaconForMac-Info.plist";
+				PRODUCT_NAME = iBeaconForMac;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		300D8E2718ED4F7F0024972B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBeaconForMac/iBeaconForMac-Prefix.pch";
+				INFOPLIST_FILE = "iBeaconForMac/iBeaconForMac-Info.plist";
+				PRODUCT_NAME = iBeaconForMac;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		300D8DEF18ED4F7F0024972B /* Build configuration list for PBXProject "iBeaconForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				300D8E2318ED4F7F0024972B /* Debug */,
+				300D8E2418ED4F7F0024972B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		300D8E2518ED4F7F0024972B /* Build configuration list for PBXNativeTarget "iBeaconForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				300D8E2618ED4F7F0024972B /* Debug */,
+				300D8E2718ED4F7F0024972B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 300D8DEC18ED4F7F0024972B /* Project object */;
+}

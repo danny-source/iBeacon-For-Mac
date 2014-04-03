@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9E17A941-E284-4F63-8927-CC5165A79058</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iBeaconForMac</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0541747A-61DE-4FBC-B6A3-094B5D9A3B94</key>
+		<string>ssh://192.168.9.83/WorkspaceMY</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>301_Xcode/002_OSX/iBeaconForMac/iBeaconForMac.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0541747A-61DE-4FBC-B6A3-094B5D9A3B94</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://192.168.9.83/WorkspaceMY</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0541747A-61DE-4FBC-B6A3-094B5D9A3B94</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0541747A-61DE-4FBC-B6A3-094B5D9A3B94</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Workspace-MY</string>
+		</dict>
+	</array>
+</dict>
+</plist>
